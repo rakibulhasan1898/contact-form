@@ -3,41 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login form</title>
-    <!-- google fonts cdn -->
+    <title>Galaxy</title>
+    <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
     <!-- external css -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <section class="complete_form">
-    <div class="upper_form">
-        <h3>contact us</h3>
-        <p>feel free to drop us a line below!</p>
-    </div>
-    <div class="main_form">
-        <div class="contact_form">
-            <form action="" method="POST">
-                
-                <input type="text" placeholder="Full name" required> 
-
-                
-                <input type="email" name="" id="mail" placeholder="Email address" required> 
-
-               
-                <input type="tel" name="" id="phone" placeholder="Phone number" required> 
-
-                <textarea name="" id="message" placeholder="Message" cols="30" rows="10"></textarea>
-
-                <input type="submit" value="Submit">
-            </form>
+    <!-- header -->
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="logo">
         </div>
-    </div>
-  </section>
-    
-  
+        <div class="unsubscribe">
+            <a href="">unsubscribe</a>
+        </div>
+    </header>
 
+    <!-- banner section -->
+    <section class="hero_section">
+        <div class="hero_contents">
+            <h3>NEW BRANDING STYLE</h3>
+            <p>see our new graphic design collection</p>
+            <a href="">learn more <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+    </section>
+
+    <!-- feature section -->
+    <section class="feature_section">
+        <div class="feature_items">
+            <div class="feature_item">
+                <div class="icon">
+                    <i class="fa-brands fa-css3"></i>
+                </div>
+                <h3>web design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem veniam temporibus mollitia</p>
+            </div>
+            <div class="feature_item">
+                <div class="icon">
+                    <i class="fa-solid fa-pencil"></i>
+                </div>
+                <h3>graphic design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem veniam temporibus mollitia</p>
+            </div>
+            <div class="feature_item">
+                <div class="icon">
+                    <i class="fa-solid fa-camera"></i>
+                </div>
+                <h3>photography</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem veniam temporibus mollitia</p>
+            </div>
+        </div>
+        <div class="quote">
+            <p><q>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas quae nam quidem fugiat necessitatibus! Consectetur mollitia voluptatibus eos! </q></p>
+        </div>
+    </section>
+
+    <!-- featured image section -->
+    <section class="featured_img_section">
+        <div class="featured_images">
+            <div class="feature_image_box">
+                <img src="images/5bd268b2cb20b-wallpaper-preview.jpg" alt="">
+                <div class="featured_img_content">
+                    <h3>Cool Image</h3>
+                    <p>Galaxy Corp.</p>
+                </div>
+            </div>
+            <div class="feature_image_box">
+                <img src="images/sunset_minimal_landscape_4k.jpg" alt="">
+                <div class="featured_img_content">
+                    <h3>Great Picture</h3>
+                    <p>Galaxy Corp.</p>
+                </div>
+            </div>
+            <div class="feature_image_box">
+                <img src="images/5bd268b2cb20b-wallpaper-preview.jpg" alt="">
+                <div class="featured_img_content">
+                    <h3>Cool Image</h3>
+                    <p>Galaxy Corp.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blog section -->
+    <article>
+        <div class="blogs">
+            <div class="blog">
+                <img src="images/kanagawa-hakone_BEAUJAPAN0223-60d5d7c0e85e4c61a47b716fba318cab.jpg" alt="">
+                <h3>Web Design </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis accusantium illum officia odit ipsam, aspernatur pariatur dolorum suscipit rem quo a explicabo ipsum veniam voluptatibus nostrum hic eligendi voluptate minima!</p>
+            </div>
+            <div class="blog">
+                <img src="images/kanagawa-hakone_BEAUJAPAN0223-60d5d7c0e85e4c61a47b716fba318cab.jpg" alt="">
+                <h3>Web Design </h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis accusantium illum officia odit ipsam, aspernatur pariatur dolorum suscipit rem quo a explicabo ipsum veniam voluptatibus nostrum hic eligendi voluptate minima!</p>
+            </div>
+        </div>
+    </article>
+
+    <!-- footer section -->
+    <footer>
+        <div class="footer_contents">
+            <div class="reserved_part">
+                <div class="brand_logo">
+                    <img src="images/favicon.png" alt="brand favicon">
+                </div>
+                <div class="footer_heading">
+                    <h3>All rights are reserved</h3>
+                </div>
+            </div>
+            <div class="social_media_links">
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-dribbble"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
 </body>
 </html>
